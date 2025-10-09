@@ -15,8 +15,8 @@ const merriweather = Merriweather({
 });
 
 export const metadata: Metadata = {
-  title: "Ryan Loh - Portfolio",
-  description: "Full-stack developer and creative problem solver",
+  title: "Ryan Loh",
+  description: "Website",
   icons: {
     icon: '/rl.png',
     shortcut: '/rl.png',
