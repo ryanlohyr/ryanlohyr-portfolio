@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat, Merriweather } from "next/font/google";
 import "./globals.css";
+import { ThemeToggle } from "./theme-toggle";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -24,16 +25,28 @@ export const metadata: Metadata = {
   },
 };
 
+const themeScript = `
+  try {
+    const t = localStorage.getItem('theme');
+    const d = t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    if (d) document.documentElement.classList.add('dark');
+  } catch (e) {}
+`;
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
       <body
         className={`${montserrat.variable} ${merriweather.variable} antialiased`}
       >
+        <ThemeToggle />
         {children}
       </body>
     </html>
