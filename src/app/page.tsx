@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div className="min-h-screen flex justify-center px-6 py-10 md:py-14">
-      <div className="max-w-2xl w-full space-y-3 text-base md:text-[15px] leading-relaxed">
+    <div className="min-h-screen flex justify-center px-6 py-10 md:py-12">
+      <div className="max-w-2xl w-full space-y-4 text-base md:text-[15px] leading-snug">
         <h1 className="text-3xl md:text-[2.125rem] font-bold tracking-tight pb-1">
           Hi! I&apos;m Ryan.
         </h1>
@@ -16,8 +16,8 @@ export default function Home() {
           >
             LearnKata
           </a>
-          . I think every kid deserves a tutor, and AI is finally good enough to
-          give them one.
+          . Every kid deserves a tutor, and AI is finally good enough to be
+          one.
         </p>
 
         <p>
@@ -28,8 +28,9 @@ export default function Home() {
           building things. Dropped the{" "}
           <span className="font-bold">business offer</span> at{" "}
           <span className="font-bold">NUS</span> for{" "}
-          <span className="font-bold">computer engineering</span>. Felt like a
-          huge call. It wasn&apos;t.
+          <span className="font-bold">computer engineering</span>. Felt scary
+          at the time, but turned out to be one of the best decisions I&apos;ve
+          made.
         </p>
 
         <p>
@@ -37,8 +38,8 @@ export default function Home() {
           <span className="font-bold">AI wedding planner</span>, a{" "}
           <span className="font-bold">dating app</span>, even a{" "}
           <span className="font-bold">game</span>. They earned me{" "}
-          <span className="font-bold">$0</span>. They taught me everything I
-          needed to build LearnKata.
+          <span className="font-bold">$0</span>, but they taught me everything
+          I needed to build LearnKata.
         </p>
 
         <p>The ones that worked:</p>
@@ -90,9 +91,9 @@ export default function Home() {
           What I keep coming back to is building things that make life better
           for other humans. In college, I built a{" "}
           <span className="font-bold">volunteer management system</span> for{" "}
-          <span className="font-bold">MINDS MYG</span>. Still the most
-          meaningful thing I&apos;ve built. Turns out building LearnKata is
-          my{" "}
+          <span className="font-bold">MINDS MYG</span>, a charity for the
+          intellectually disabled. Still the most meaningful thing I&apos;ve
+          built, and LearnKata is the same. I truly feel like I found my{" "}
           <a
             href="https://en.wikipedia.org/wiki/Ikigai"
             target="_blank"
@@ -106,11 +107,13 @@ export default function Home() {
 
         <p>
           I grew up in <span className="font-bold">Singapore</span>, did an
-          exchange at <span className="font-bold">Stanford</span>, lived in{" "}
-          <span className="font-bold">SF</span> for{" "}
-          <span className="font-bold">NUS Overseas Colleges</span>, and came
-          back to Singapore to start LearnKata. I like diving, backpacking,
-          and cooking.
+          exchange at <span className="font-bold">Stanford</span>, and spent a
+          year in <span className="font-bold">SF</span> for{" "}
+          <span className="font-bold">NUS Overseas Colleges</span>. That year
+          really broadened my horizons and showed me that successful
+          businesses aren&apos;t just built by intelligent people, but by ones
+          with tons of grit and resilience. Outside of building, I like
+          diving, backpacking, and cooking.
         </p>
 
         <p>
