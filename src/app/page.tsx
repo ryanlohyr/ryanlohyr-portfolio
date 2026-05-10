@@ -1,8 +1,8 @@
 export default function Home() {
   return (
     <div className="min-h-screen flex justify-center px-6 py-10 md:py-14">
-      <div className="max-w-2xl w-full space-y-3 text-[14px] md:text-[15px] leading-relaxed">
-        <h1 className="text-2xl md:text-[2.125rem] font-bold tracking-tight pb-1">
+      <div className="max-w-2xl w-full space-y-3 text-base md:text-[15px] leading-relaxed">
+        <h1 className="text-3xl md:text-[2.125rem] font-bold tracking-tight pb-1">
           Hi! I&apos;m Ryan.
         </h1>
 
