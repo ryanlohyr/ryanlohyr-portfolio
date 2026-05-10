@@ -21,13 +21,15 @@ export default function Home() {
         </p>
 
         <p>
-          Back in 2020, I was on track for{" "}
-          <span className="font-bold">investment banking</span> at{" "}
-          <span className="font-bold">NUS</span>. Then COVID hit, I got bored,
-          started learning to code, and fell in love with building things. I
-          dropped the IB offer and switched into{" "}
+          I always wanted to be an{" "}
+          <span className="font-bold">investment banker</span> — I thought it
+          was the fastest way to earn money and then start a business. Then
+          COVID hit, I got bored, learned to code, and fell in love with
+          building things. Dropped the{" "}
+          <span className="font-bold">business offer</span> at{" "}
+          <span className="font-bold">NUS</span> for{" "}
           <span className="font-bold">computer engineering</span>. Felt like a
-          huge call at the time. It wasn&apos;t.
+          huge call. It wasn&apos;t.
         </p>
 
         <p>
@@ -145,10 +147,10 @@ export default function Home() {
 
         <p>
           <a
-            href="mailto:ryanloh29@gmail.com"
+            href="mailto:ryan@learnkata.ai"
             className="text-accent hover:underline"
           >
-            ryanloh29@gmail.com
+            ryan@learnkata.ai
           </a>
         </p>
       </div>
