@@ -148,13 +148,8 @@ export default function Home() {
           .
         </p>
 
-        <p>
-          <a
-            href="mailto:ryan@learnkata.ai"
-            className="text-accent hover:underline"
-          >
-            ryan@learnkata.ai
-          </a>
+        <p className="text-accent hover:underline">
+            ryan[at]learnkata.ai
         </p>
       </div>
     </div>
